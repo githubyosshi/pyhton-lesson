@@ -63,5 +63,14 @@ score = 52.8
 # print("name: %-10s, sore: %10.2f" % (name, score))
 # 0番目、1番目の要素
 # print("name: {0}, score: {1}".format(name, score))
-# >左揃え桁数、<右揃え桁数
+# >右揃え桁数、<左揃え桁数
 print("name: {0:>10s}, score: {1:<10.2f}".format(name, score))
+# > >= <= == !=
+# score = int(input("score ?"))
+# if score > 80:
+#   print("Great!")
+# elif score > 60:
+#   print("Good!")
+# else:
+#   print("so so ...")
+print("Great!" if score > 80 else "so so ...")
