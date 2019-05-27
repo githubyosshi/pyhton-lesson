@@ -89,11 +89,15 @@ Comment
 # for 変数 in データの集合:
 # 処理
 # for i in range(0, 10):
-for i in range(10):
-  if i == 5:
-    # break
-    # 5の値の時は実行しない
-    continue
-  print(i)
-else:
-  print("end")
+# for i in range(10):
+#   if i == 5:
+#     # break
+#     # 5の値の時は実行しない
+#     continue
+#   print(i)
+# else:
+#   print("end")
+
+def say_hi():
+  print("hi")
+say_hi()
